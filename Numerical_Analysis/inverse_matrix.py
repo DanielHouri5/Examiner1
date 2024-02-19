@@ -93,14 +93,14 @@ if __name__ == '__main__':
     #the solution vector for matrix A
     B = np.array([0, 0, 0])
     """
-    (" Date: \n"
-          " Group: Daniel Houri , 209445071 \n"
-          "        Yakov Shtefan , 208060111 \n"
-          "        Vladislav Rabinovich , 323602383 \n"
-          " Git: https://github.com/EveHackmon/Numerical_Analysis.git \n"
-          " Name: Eve Hackmon , 209295914 \n"
-          " Input: \n")
-    """
+     (" Date: \n"
+           " Group: Daniel Houri , 209445071 \n"
+           "        Yakov Shtefan , 208060111 \n"
+           "        Vladislav Rabinovich , 323602383 \n"
+           " Git: https://github.com/DanielHouri5/Examiner1 \n"
+           " Name: Eve Hackmon , 209295914 \n"
+           " Input: \n")
+     """
     try:
         A_inverse = matrix_inverse(A)
         print(bcolors.OKBLUE, "\nInverse of matrix A: \n", A_inverse)

@@ -86,7 +86,15 @@ if __name__ == '__main__':
            [2, 3, 4, 5, 1],
            [8, 8, 8, 8, 1],
            [24, 15, 22, 1, 8]]
-
+    """
+     (" Date: \n"
+           " Group: Daniel Houri , 209445071 \n"
+           "        Yakov Shtefan , 208060111 \n"
+           "        Vladislav Rabinovich , 323602383 \n"
+           " Git: https://github.com/DanielHouri5/Examiner1 \n"
+           " Name: Eve Hackmon , 209295914 \n"
+           " Input: \n")
+     """
     result = gaussianElimination(A_b)
     print(np.array(A_b))
     if isinstance(result, str):
